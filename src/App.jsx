@@ -1,8 +1,8 @@
 import React from 'react'
 import Home from './pages/Home'
 import About from './pages/About'
-import Contact from './pages/Contact'
-import Country from './pages/Country'
+import Contact from './pages/AddProducts'
+import Country from './pages/Product'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AppLayout from './Component/Layout/AppLayout'
 import ErrorPage from './pages/ErrorPage'
@@ -22,12 +22,12 @@ const App = () => {
         element:<Home />
       }, 
       {
-        path: '/about',
-        element: <About />
+        path: '/product',
+        element: <Product />
       },
       {
         path: '/contact',
-        element: <Contact />
+        element: <Add />
       },
       {
         path: '/country',

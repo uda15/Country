@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+const AddProduct = () => {
 
     const handleFormSubmit = (formData) => {
     const formInputData = Object.fromEntries(formData.entries());
@@ -48,4 +48,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default AddProduct

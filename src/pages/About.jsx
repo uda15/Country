@@ -1,6 +1,6 @@
 import React from 'react'
 import countryFacts from '../Api/countryData.json'
-import Country from './Country';
+import Country from './Product';
 
 const About = () => {
   return (
